@@ -40,10 +40,12 @@ public class Algoritma {
         } else {
             for (int i = 0; i < Math.abs(b); i++) {
                 hasil = hasil + Math.abs(a);
+                
             }
         }
         return hasil;
     }
+    
     /**
      * Function untuk menghitung nominal uang berdasarkan pecahan
      * @param nominal - besar nominal uang yang akan dihitung
